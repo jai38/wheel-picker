@@ -1,18 +1,21 @@
 import { useState, useEffect, useRef } from "react";
 
+import thar from "../assets/cars/mahindra-thar-roxx.png";
+import surya1780 from "../assets/wheels/1780-surya-1.png";
+
 const cars = {
   thar: {
     name: "Mahindra Thar",
-    image: "/src/assets/cars/mahindra-thar.png",
+    image: thar,
     wheelPositions: [
-      { x: 310, y: 500, size: 200 },
-      { x: 1190, y: 490, size: 200 },
+      { x: 252, y: 467, size: 200 },
+      { x: 1207, y: 467, size: 200 },
     ],
   },
 };
 
 const wheels = {
-  surya1780: "/src/assets/wheels/1780-surya-1.png",
+  surya1780: surya1780,
 };
 
 export default function CarCanvas() {
